@@ -1,0 +1,3 @@
+[build]
+target = "wasm32-wasi"
+rustflags = ["-C", "llvm-args=-wasm-enable-eh", "-C", "target-feature=+exception-handling", "-C", "panic=unwind"]

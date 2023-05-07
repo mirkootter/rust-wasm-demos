@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "mini_std",
+    "hello_panic",
+]
